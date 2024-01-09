@@ -1,0 +1,57 @@
+$OpenSans:'Open Sans', sans-serif;
+$transition: transform 0.25s cubic-bezier(0.645,0.045,0.355,1);
+$darkgreen:#0FA54A;
+$lightgreen: #CFEDDA;
+$neongreen:#8EAF20;
+$gold:#FFD700;
+$voilet:#727EE9;
+$white:#fff;
+
+//desktop
+$radius-l:1.042vw;
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.p-head{
+    font:normal normal normal 5vw/6.823vw $OpenSans;
+}
+.s-head{
+    font:normal normal normal 3.333vw/4.531vw $OpenSans;
+    margin-bottom: 5.729vw;
+    text-align: center;
+}
+.t-head{
+    font:normal normal normal 1.563vw/2.135vw $OpenSans;
+    margin: 0;
+    margin-bottom: 1.042vw;
+}
+
+
+.p-para{
+    font:normal normal normal 1.667vw/2.292vw $OpenSans;
+}
+.s-para{
+    font:normal normal normal 1.25vw/1.719vw $OpenSans;
+}
+
+
+.p-btn{
+    padding: 0.703vw 2.031vw;
+    background: $darkgreen;
+    border-radius: 0.521vw;
+    color: $white;
+    border: none;
+    font-family: $OpenSans;
+    font-size: 1.25vw;
+    line-height: 1.719vw;
+    cursor: pointer;
+    text-decoration: none;
+    &:hover{
+        color: $white;
+    }
+}
